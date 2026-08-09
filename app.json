@@ -6,7 +6,11 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
+    "splash": {
     "backgroundColor": "#0B0B0F",
+    "resizeMode": "contain"
+},
+    
     "android": {
       "package": "com.pumpfunsignal.app",
       "permissions": ["INTERNET", "POST_NOTIFICATIONS"],
