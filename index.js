@@ -1,0 +1,11 @@
+import 'react-native-get-random-values';
+import 'react-native-url-polyfill/auto';
+import { Buffer } from 'buffer';
+global.Buffer = global.Buffer || Buffer;
+
+import { registerRootComponent } from 'expo';
+import App from './App';
+
+// registerRootComponent handles both Expo Go and native builds correctly,
+// and calls AppRegistry.registerComponent under the hood.
+registerRootComponent(App);

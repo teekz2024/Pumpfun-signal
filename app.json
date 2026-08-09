@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "PumpFun Signal",
+    "slug": "pumpfun-signal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0B0B0F",
+    "android": {
+      "package": "com.pumpfunsignal.app",
+      "permissions": ["INTERNET", "POST_NOTIFICATIONS"],
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0B0F"
+      }
+    },
+    "plugins": [
+      "expo-notifications"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE_WITH_YOUR_EAS_PROJECT_ID"
+      }
+    }
+  }
+}
