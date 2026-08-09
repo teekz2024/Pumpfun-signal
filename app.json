@@ -2,6 +2,7 @@
     "expo": {
     "name": "PumpFun Signal",
     "slug": "pumpfun-signal",
+    "owner":"tkzzzbabys-team",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
