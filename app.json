@@ -1,5 +1,4 @@
-{
-  "expo": {
+    "expo": {
     "name": "PumpFun Signal",
     "slug": "pumpfun-signal",
     "version": "1.0.0",
@@ -18,7 +17,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "REPLACE_WITH_YOUR_EAS_PROJECT_ID"
+        "projectId": "9b724f97-4074-4253-a454-6f9824ec121e"
       }
     }
   }
